@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- usedbytes is shorthand for usedbytes' repos -->
+	<remote name="usedbytes"
+		fetch="ssh://git@github.com/usedbytes"/>
+	<!-- github us for anything else on github -->
+	<remote name="github"
+		fetch="ssh://git@github.com"/>
+	<default remote="usedbytes" revision="master"/>
+
+	<!-- core projects -->
+	<project name="mini_mouse" path="."/>
+	<project name="mini_mouse-ui" path="go/src/github.com/usedbytes/mini_mouse/ui"/>
+	<project name="mini_mouse-bot" path="go/src/github.com/usedbytes/mini_mouse/bot"/>
+	<project name="yapidh" path="c/yapidh"/>
+
+	<!-- Need specific revisions of these -->
+	<project name="jochenvg/go-udev" path="go/src/github.com/jochenvg/go-udev"
+		remote="github" revision="b7a82d7b755ee9b24b4a4cfd2c0626200903810a"/>
+	<project name="golang-evdev" path="go/src/github.com/gvalkov/golang-evdev"
+		remote="usedbytes" revision="ff-dev"/>
+	<project name="input2" path="go/src/github.com/usedbytes/input2" revision="dev"/>
+</manifest>
