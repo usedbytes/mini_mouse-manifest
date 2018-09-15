@@ -19,5 +19,6 @@
 		remote="github" revision="b7a82d7b755ee9b24b4a4cfd2c0626200903810a"/>
 	<project name="golang-evdev" path="go/src/github.com/gvalkov/golang-evdev"
 		remote="usedbytes" revision="ff-dev"/>
+	<project name="bot_matrix-datalink" path="go/src/github.com/usedbytes/bot_matrix/datalink" revision="dev"/>
 	<project name="input2" path="go/src/github.com/usedbytes/input2" revision="dev"/>
 </manifest>
