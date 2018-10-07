@@ -14,6 +14,7 @@
 	<project name="mini_mouse-bot" path="go/src/github.com/usedbytes/mini_mouse/bot"/>
 	<project name="mini_mouse-manifest" path="manifest"/>
 	<project name="yapidh" path="c/yapidh"/>
+	<project name="libcomm" path="c/libcomm"/>
 
 	<!-- Need specific revisions of these -->
 	<project name="jochenvg/go-udev" path="go/src/github.com/jochenvg/go-udev"
