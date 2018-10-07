@@ -15,6 +15,7 @@
 	<project name="mini_mouse-manifest" path="manifest"/>
 	<project name="yapidh" path="c/yapidh"/>
 	<project name="libcomm" path="c/libcomm"/>
+	<project name="bot_matrix-camera" path="c/camera" revision="mini-mouse"/>
 
 	<!-- Need specific revisions of these -->
 	<project name="jochenvg/go-udev" path="go/src/github.com/jochenvg/go-udev"
