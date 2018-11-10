@@ -12,6 +12,7 @@
 	<project name="mini_mouse" path="."/>
 	<project name="mini_mouse-ui" path="go/src/github.com/usedbytes/mini_mouse/ui"/>
 	<project name="mini_mouse-bot" path="go/src/github.com/usedbytes/mini_mouse/bot"/>
+	<project name="picamera" path="go/src/github.com/usedbytes/picamera"/>
 	<project name="mini_mouse-manifest" path="manifest"/>
 	<project name="yapidh" path="c/yapidh"/>
 	<project name="libcomm" path="c/libcomm"/>
