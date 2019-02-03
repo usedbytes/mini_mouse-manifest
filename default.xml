@@ -13,6 +13,7 @@
 	<project name="mini_mouse-ui" path="go/src/github.com/usedbytes/mini_mouse/ui"/>
 	<project name="mini_mouse-bot" path="go/src/github.com/usedbytes/mini_mouse/bot"/>
 	<project name="mini_mouse-cv" path="go/src/github.com/usedbytes/mini_mouse/cv"/>
+	<project name="mini_mouse-cvdev" path="go/src/github.com/usedbytes/mini_mouse/cvdev"/>
 	<project name="mini_mouse-manifest" path="manifest"/>
 	<project name="picamera" path="go/src/github.com/usedbytes/picamera"/>
 	<project name="yapidh" path="c/yapidh"/>
